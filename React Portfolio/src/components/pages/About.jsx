@@ -1,9 +1,12 @@
 // switch name to About after website functions
 // Home = About
+import avatar from '../../assets/images/github-avatar.png';
+
 export default function About() {
     return (
         <div>
             <h1>About Me</h1>
+            <img src={avatar} alt='Avatar'/>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                 velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
