@@ -158,6 +158,10 @@ button:focus-visible {
   width: 100%;
 }
 
+.form-message {
+  height: 100px;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
