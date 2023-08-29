@@ -1,4 +1,4 @@
-/* add new code (spot the green lines on left screen) into mediaqueries */
+/* add new code (spot the green lines below) into mediaqueries */
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -56,14 +56,95 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+/* below here and aboc @media, code is new */
 .logo {
   cursor: pointer;
   list-style: none;
   font-size: 40px;
   color: #0E5259;
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
 }
+
+.mvmnt {
+  max-width: 100%;
+  max-height: 100%; 
+}
+
+.a-mvmnt {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(233, 96, 59);
+  color: white;
+}
+
+.filmify {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.a-filmify {
+  display: flex;
+  justify-content: center;
+  background-color: #22254b;
+  color: white;
+}
+
+.weatherDashboard {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.a-weatherDashboard {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(12, 119, 227);
+  color: white;
+}
+
+.noteTaker {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.a-noteTaker {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(12, 202, 227);
+  color: white;
+}
+
+.generator {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.a-generator {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(167, 24, 24);
+  color: white;
+}
+
+.codeQuiz {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.a-codeQuiz {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
