@@ -62,10 +62,14 @@ button:focus-visible {
   list-style: none;
   font-size: 40px;
   color: #0E5259;
-  /* display: inline-block; */
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
+  display: inline-block;
+}
+
+footer p {
+  color: #75BFB2;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
 }
 
 .mvmnt {
