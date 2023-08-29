@@ -1,4 +1,5 @@
 import NavTabs from "../NavTabs";
+import headerImg from '../../assets/images/headerImg.png';
 
 export default function Header(props) {
     const { currentPage, handlePageChange } = props;
@@ -6,7 +7,7 @@ export default function Header(props) {
         <div>
             <header className="flex-row px-1">
             <div>
-                <h1>Elias Rivera's Portfolio</h1>
+                <img src={headerImg} alt='headerImg' className='headerImg'/> 
             </div>
             <div>
                 <NavTabs
