@@ -14,9 +14,9 @@ export default function Portfolio() {
         <div>
             <h1>Portfolio</h1>
             <div>
-                <img src={mvmnt} alt='mvmnt'className="mvmnt"/>
                 <a className='a-mvmnt' href="https://github.com/mslzbry/mvmnt">mvmnt GitHub Repository</a>
                 <a className='a-mvmnt' href="https://fast-scrubland-44894-b727f94b7e1a.herokuapp.com/">mvmnt Deployed Site</a>
+                <img src={mvmnt} alt='mvmnt'className="mvmnt"/>
             </div>
             <div>
                 <img src={filmify} alt='filmify'className="filmify"/>
