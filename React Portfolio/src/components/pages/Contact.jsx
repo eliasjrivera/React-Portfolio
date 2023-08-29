@@ -3,7 +3,7 @@
 import { useState } from 'react';
 // import './style.css';
 
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 export default function Contact() {
     // Create state variables for the fields in the form
@@ -34,25 +34,24 @@ export default function Contact() {
         e.preventDefault();
 
         // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-        // || !userName
-        if (!validateEmail(email)) {
-        setErrorMessage('Email is invalid');
+        if (!validateEmail(email || !name)) {
+            setErrorMessage('Name or Email is invalid');
         // We want to exit out of this code block if something is wrong so that the user can correct it
-        return;
+            return;
         // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
         }
-        // if (!checkPassword(password)) {
-        // setErrorMessage(
-        //     `Choose a more secure password for the account: ${userName}`
-        // );
-        // return;
-        // }
+        if (!setMessage(message)) {
+            setErrorMessage(
+                `Message is required`
+            );
+        return;
+        }
         // alert(`Hello ${userName}`);
 
         // If everything goes according to plan, we want to clear out the input after a successful registration.
+        setName('');
         setEmail('');
         setMessage('');
-        setName('');
     };
 
     return (
