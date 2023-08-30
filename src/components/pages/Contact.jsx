@@ -55,37 +55,40 @@ export default function Contact() {
     };
 
     return (
-        <div className="container text-center">
-            <form className="form" onSubmit={handleFormSubmit}>
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="name"
-                    placeholder="name"
-                />
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="email"
-                />
-                <input
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="message"
-                    placeholder="message"
-                    className="form-message"
+        <div>
+            <h1>Contact</h1>
+            <div className="container text-center">
+                <form className="form" onSubmit={handleFormSubmit}>
+                    <input
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="name"
+                        placeholder="name"
                     />
-                <button type="submit">Submit</button>
-            </form>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+                    <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="email"
+                    />
+                    <input
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        type="message"
+                        placeholder="message"
+                        className="form-message"
+                        />
+                    <button type="submit">Submit</button>
+                </form>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+            </div>
         </div>
     );
 }

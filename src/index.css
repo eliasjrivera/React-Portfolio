@@ -182,12 +182,12 @@ footer p {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+  height: auto;
 }
 
 .form-message {
-  height: 100px;
+  height: 40px;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
