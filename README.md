@@ -55,13 +55,13 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Visuals
-![](./gif/app.gif)
+![](./src/assets/gifs/app.gif)
 
 ## Project Repo
 [Elias Rivera GitHub Repo](https://github.com/eliasjrivera/React-Portfolio)
 
 ## Deployed Site
-[React Portfolio Deployed Site]()
+[React Portfolio Deployed Site](https://main--melodic-boba-510112.netlify.app/)
 
 ## Installation
 `git clone git@github.com:eliasjrivera/React-Portfolio.git`
