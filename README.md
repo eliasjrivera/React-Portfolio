@@ -65,6 +65,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Installation
 `git clone git@github.com:eliasjrivera/React-Portfolio.git`
+
 `npm install`
 
 ## Usage
