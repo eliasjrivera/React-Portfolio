@@ -6,7 +6,7 @@
 - [Acceptance Criteria](#acceptance-criteria)
 - [Visuals](#visuals)
 - [Project Repo](#project-repo)
-- [Walkthrough Video](#walkthrough-video)
+- [Deployed Site](#deployed-site)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Support](#support)
@@ -60,8 +60,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Project Repo
 [Elias Rivera GitHub Repo](https://github.com/eliasjrivera/React-Portfolio)
 
-## Walkthrough Video
-[Walkthrough Video]()
+## Deployed Site
+[React Portfolio Deployed Site]()
 
 ## Installation
 `git clone git@github.com:eliasjrivera/React-Portfolio.git`
